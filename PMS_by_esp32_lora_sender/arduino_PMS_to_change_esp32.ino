@@ -53,10 +53,6 @@ void loop() {
   LoRa.print("10ug/m3:");
   int pms10 = (pms[14]<<8)|pms[15];
   LoRa.print(pms10);
-
-  
   LoRa.endPacket();
-
-  
   } 
 }
